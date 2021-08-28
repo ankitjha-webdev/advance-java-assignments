@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+body{
+	background-color:#000;
+	color:yellow;
+	max-width: 100px;
+  margin: auto;
+  padding-top:10%;
+}

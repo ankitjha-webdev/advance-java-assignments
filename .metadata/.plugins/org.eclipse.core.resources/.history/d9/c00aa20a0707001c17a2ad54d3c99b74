@@ -1,0 +1,7 @@
+package spring.mvc.mymvc;
+
+public class Student {
+	private int IdStudent;
+	private String firstName;
+	private String lastName;
+}

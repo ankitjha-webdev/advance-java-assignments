@@ -1,0 +1,5 @@
+package spring.mvc.mymvc;
+
+public class Student {
+
+}

@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+body {
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom right, #efa2b4, #6cdbeb);
+	background-attachment: fixed;
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	color: #18293c;
+	line-height: 1.5;
+	overflow-x: hidden;
+	-webkit-top-heighlight-color: transparent;
+	padding: 35px 15px;
+	text-align: center;
+	 margin: auto;
+  width: 16%;
+}
+
+.section {
+	margin-bottom: -40px;
+	margin-top: 30px; background-color : rgba( 255, 255, 255, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	height: 250px;
+	width: 230px;
+	border-radius: 30px;
+	backdrop-filter: var(- -backdrop-filter-blur);
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+.section.active {
+	display: block;
+	animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.section.fade-out {
+	animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+/* Buttons */
+button {
+	font-family: inherit;
+	user-select: none;
+}
+
+.btn {
+	line-height: 1.5;
+	background-color: rgba(255, 255, 255, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	padding: 5px 10px;
+	margin:5px;
+	display: inline-block;
+	border-radius: 30px;
+	color: #18293c;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-family: inherit;
+	font-size: 16px;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+	transition: color 0.3s ease;
+}
+
+.btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background-color: #18293c;
+	z-index: -1;
+	transition: width 0.3s ease;
+}
+
+.btn:hover::before {
+	width: 100%;
+}
+
+.btn:hover {
+	color: #ffffff;
+}
+
+.input1, .input2 {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 5px;
+	height: 20px;
+	width:80%;
+	background-color: rgba(255, 255, 255, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 30px;
+	color: #18293c;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-family: inherit;
+	font-size: 16px;
+	text-align:center;
+}
+
+.input1 {
+	margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h4 {
+  font-weight: 600;
+}
+h4{
+	color:red;
+	margin-top:50px;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ServletContext-Servlet Config</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>ServletConfig</servlet-name>
+  <servlet-class>ServletConfig</servlet-class>
+  
+  <init-param>
+  <param-name>UserName</param-name>
+  <param-value>ankitkumar</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>linkedin</param-name>
+  <param-value>ankitkumarcse</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>ServletContext</servlet-name>
+  <servlet-class>ServletContext</servlet-class>
+  
+  <init-param>
+  <param-name>StudentName</param-name>
+  <param-value>Ankit Jha</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>Regd</param-name>
+  <param-value>190101120091</param-value>
+  </init-param>
+  <init-param>
+  <param-name>Email</param-name>
+  <param-value>contact@ankitkumar.engineer</param-value>
+  </init-param>
+  </servlet>
+  
+  <context-param>
+  <param-name>CollegeName</param-name>
+  <param-value>Centurion University of Technology and Management</param-value>
+  
+  </context-param>
+  
+  <context-param>
+  <param-name>cemail</param-name>
+  <param-value>mail@cutm.ac.in</param-value>
+  </context-param>
+  
+  <servlet-mapping>
+  <servlet-name>ServletConfig</servlet-name>
+  <url-pattern>/ServletConfig</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ServletContext</servlet-name>
+  <url-pattern>/ServletContext</url-pattern>
+  </servlet-mapping>
+</web-app>

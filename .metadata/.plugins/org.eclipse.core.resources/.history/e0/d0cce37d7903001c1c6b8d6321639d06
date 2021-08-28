@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get-Set-- Home</title>
+<style type="text/css">
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #6cdbeb,
+    #efa2b4 
+  );
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #18293c;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 35px 15px;
+}
+a{
+text-decoration: none;
+}
+</style>
+</head>
+<body>
+<a href="GetContext">Get the Get Context Value</a>
+</body>
+</html>
